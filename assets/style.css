@@ -151,13 +151,14 @@ h1 {
     text-align: center;
     margin-top: 52px;
     margin-left: 380px;
-    border-bottom: 2px;
+    border-bottom-width: 2px;
     border-color: black;
 }
 
 .three .lien_1 a {
     color: black;
     text-decoration: none;
+    border-bottom-width: 2px;
 }
 
 .for {
@@ -260,7 +261,7 @@ h1 {
     padding-top: 52px;
     margin-top: 52px;
     margin-left: 380px;
-    border-bottom: 2px;
+    border-bottom-width: 2px;
     border-color: white;
 }
 
