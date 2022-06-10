@@ -7,7 +7,7 @@
 }
 
 .one {
-    width: 1920px;
+    width: 100%;
     height: 805px;
     background-image: url(./img1.png);
     background-repeat: no-repeat;
@@ -76,12 +76,11 @@ h1 {
     position: relative;
     width: 1140px;
     height: 403px;
-    margin-left: 390px;
-    margin-top: -8px;
+    margin: auto;
 }
 
 .two {
-    width: 1920px;
+    width: 100%;
     height: 378px;
 }
 
@@ -89,7 +88,7 @@ h1 {
     width: 970px;
     height: 180px;
     padding-top: 99px;
-    margin-left: 475px;
+    margin: auto;
     font-size: 1.125rem;
     letter-spacing: 7px;
     line-height: 2;
@@ -99,10 +98,10 @@ h1 {
 }
 
 .three {
-    width: 960px;
+    width: 50%;
     height: 581px;
     background-image: linear-gradient(#b0ce37, #66b937);
-    justify-content: center;
+    /* justify-content: center; */
     padding-top: 140px;
     float: left;
 }
@@ -114,7 +113,7 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     line-height: 1.2;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .three h2 {
@@ -125,6 +124,7 @@ h1 {
     font-weight: 400;
     font-size: 3rem;
     line-height: 1.1;
+    margin: auto;
     text-align: center;
     margin-top: 20px;
 }
@@ -136,8 +136,9 @@ h1 {
     line-height: 1.7;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    margin: auto;
     margin-top: 20px;
-    margin-left: 188px;
+    /* margin-left: 188px; */
 }
 
 .three .lien_1 {
@@ -149,20 +150,20 @@ h1 {
     font-size: 1rem;
     line-height: 1.6;
     text-align: center;
+    margin: auto;
     margin-top: 52px;
-    margin-left: 380px;
-    border-bottom-width: 2px;
-    border-color: black;
+    /* margin-left: 380px; */
 }
 
 .three .lien_1 a {
     color: black;
     text-decoration: none;
-    border-bottom-width: 2px;
+    border-bottom: 2px solid black !important;
+    padding-bottom: 2px;
 }
 
 .for {
-    width: 960px;
+    width: 50%;
     height: 581px;
     float: left;
     background: #2c2933;
@@ -184,7 +185,7 @@ h1 {
 }
 
 .five {
-    width: 960px;
+    width: 50%;
     height: 581px;
     float: left;
     background: #2c2933;
@@ -207,7 +208,7 @@ h1 {
 }
 
 .six {
-    width: 960px;
+    width: 50%;
     height: 581px;
     float: left;
     background-image: linear-gradient(#faabe7, #6a32f4);
@@ -221,7 +222,7 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     line-height: 1.2;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .six h2 {
@@ -233,6 +234,7 @@ h1 {
     font-size: 3rem;
     line-height: 1.1;
     text-align: center;
+    margin: auto;
     margin-top: 20px;
     color: white;
 }
@@ -244,8 +246,9 @@ h1 {
     line-height: 1.7;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    margin: auto;
     margin-top: 20px;
-    margin-left: 203px;
+    /* margin-left: 203px; */
     color: white;
 }
 
@@ -259,19 +262,20 @@ h1 {
     line-height: 1.6;
     text-align: center;
     padding-top: 52px;
+    margin: auto;
     margin-top: 52px;
-    margin-left: 380px;
-    border-bottom-width: 2px;
-    border-color: white;
+    /* margin-left: 380px; */
 }
 
 .six .lien_2 a {
     color: white;
     text-decoration: none;
+    border-bottom: 2px solid white !important;
+    padding-bottom: 2px;
 }
 
 .seven {
-    width: 960px;
+    width: 50%;
     height: 581px;
     float: left;
     background-image: linear-gradient(#fdd40a, #fbace6);
@@ -287,11 +291,11 @@ h1 {
 }
 
 .eight {
-    width: 960px;
+    width: 50%;
     height: 581px;
     float: left;
-    background-image: url(./img11.jpeg);
     padding-top: 170px;
+    background-image: url(./img11.jpeg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -346,7 +350,7 @@ h1 {
 }
 
 .nine {
-    width: 1920px;
+    width: 100%;
     height: 500px;
     background-color: #2c2933;
     float: left;
@@ -408,7 +412,7 @@ h1 {
 }
 
 .ten {
-    width: 1920px;
+    width: 100%;
     height: 498px;
     float: left;
     background-color: white;
@@ -466,14 +470,14 @@ li {
     line-height: 2;
 }
 
-.header {
-    width: 1920px;
+.footer {
+    width: 100%;
     height: 100px;
     background-color: #2c2933;
     float: left;
 }
 
-.header p {
+.footer p {
     text-align: center;
     color: white;
     font-size: 0.8rem;
@@ -483,9 +487,10 @@ li {
     margin-top: 40px;
 }
 
-.header p a {
+.footer p a {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     color: #edc501;
     font-size: 0.8rem;
+    text-decoration: none;
 }
